@@ -1,4 +1,3 @@
-array = [20,35,-15,7,-3,100,55,1,-22]
 def BubbleSort(data):
      unsorted = data.copy()
      unsortedPartitionIndex = len(unsorted)
