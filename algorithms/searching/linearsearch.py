@@ -6,7 +6,6 @@ def linear_search(value, list):
     :param value: Value being searched for.
     :param list: List that is being traversed.
     :return: Index of found value, or -1 if not found. 
-
     '''
     for x in list:
         if(value == list[x-1]):
