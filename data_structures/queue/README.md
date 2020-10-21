@@ -13,7 +13,7 @@ actionQueue.add('Walk Left')
 
 Remove the first item from the Queue using: 
 ```
-actionQueue.pop()
+actionQueue.remove()
 ```
 
 You can use the removed item like so: 
