@@ -1,7 +1,7 @@
 # Stack
 
 ## Explanation
-The Stack is a linear data structure that orders its elements in either LIFO (Last In First Out) or FILO (First In Last Out). This implementation uses FILO. 
+The Stack is a linear data structure that orders its elements in either LIFO (Last In First Out). 
 
 ## Usage 
 
