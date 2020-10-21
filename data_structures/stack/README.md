@@ -5,7 +5,7 @@ The Stack is a linear data structure that orders its elements in either LIFO (La
 
 ## Usage 
 
-Add an item using:
+Add an item using. Almost any value / object can take the place of "Hello World":
 ```
 messageStack = Stack()
 messageStack.push('Hello World!')
