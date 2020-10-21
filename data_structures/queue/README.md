@@ -11,7 +11,7 @@ actionQueue = Queue()
 actionQueue.add('Walk Left')
 ```
 
-Remove the first item from the Queue using: 
+Remove the first item from the Queue by using **add()**: 
 ```
 actionQueue.remove()
 ```
