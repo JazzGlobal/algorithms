@@ -1,5 +1,7 @@
 from stack import Stack
 
+# Realistic Bullet Loading for a game.
+
 def load_bullet(bullet, clip):
     clip.push(bullet)
 
