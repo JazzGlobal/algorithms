@@ -22,16 +22,19 @@ You can traverse the tree with the following methods:
 ### Depth First:
 #### Inorder
 ```python
+# Traverse the left branch, visit the root, traverse right branch.
 print(inorder_traversal(tree))
 # returns [4,2,5,1,3]
 ```
 #### Preorder
 ```python
+# Visit root, traverse left branch, traverse right branch.
 print(preorder_traversal(tree))
 # returns [1,2,4,5,3]
 ```
 #### Postorder
 ```python
+# Traverse left branch, traverse right branch, visit root.
 print(postorder_traversal(tree))
 # returns [4,5,2,3,1]
 ```
