@@ -11,7 +11,7 @@ class TestNode(unittest.TestCase):
             # None
         # Assert
         self.assertEqual('Parent', test_node.name)
-
+# Depth first traverse
     # Inorder Traverse tests.
     def test_inorder_traverse_emptytree(self):
         # Arrange
@@ -74,6 +74,6 @@ class TestNode(unittest.TestCase):
         result = tree.postorder_traverse(test_node)
         # Assert
         self.assertEqual([4,5,2,3,1], result)
-
+# End of Depth first traverse
 if __name__ == '__main__':
     unittest.main()
