@@ -6,11 +6,17 @@ class Node:
     def empty(self):
         return self.left == None and self.right == None
 
-def preorder_traverse(tree, result):
+def inorder_traverse(tree, result):
     if result == None:
         result = []
     if tree:
-        preorder_traverse(tree.left, result)
+        inorder_traverse(tree.left, result)
         result.append(tree.name)
-        preorder_traverse(tree.right, result)
+        inorder_traverse(tree.right, result)
     return result
+
+def preorder_traverse(tree, result): 
+    pass
+
+def postorder_traverse(tree, result): 
+    pass
