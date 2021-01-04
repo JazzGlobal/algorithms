@@ -11,3 +11,9 @@ def linear_search(value, list):
         if(value == list[x-1]):
             return x - 1
     return -1
+
+# String based Linary Search 
+#
+# search_value = 'hello'
+# sorted_values = ['a','abc','string', 'xeno','zebra','hello']
+# print(linear_search(search_value, sorted_values))
