@@ -7,11 +7,12 @@ def linear_search(value, list):
     :param list: List that is being traversed.
     :return: Index of found value, or -1 if not found. 
     '''
-    for x in list:
-        if(value == list[x-1]):
-            return x - 1
+    x = 0
+    for x in range(len(list)):
+        if(value == list[x]):
+            return x
     return -1
-
+    
 # String based Linary Search 
 #
 # search_value = 'hello'
